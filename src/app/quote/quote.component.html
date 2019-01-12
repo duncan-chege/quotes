@@ -2,6 +2,7 @@
 <h1>My Quotes</h1>
 <div class="container">
   <div class="row">
+    <app-quote-form (addQuote)="addmodel($event)"></app-quote-form>
     <ul>
       <div *ngFor='let quote of quotes'>
         <li>"{{quote.description}}"</li>

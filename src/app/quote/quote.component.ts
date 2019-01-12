@@ -8,7 +8,7 @@ import {Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes= [ new Quote ("If I could fall asleep, I would have slept by now",
-       "Billie Eilish", "Duncan",0,0,new Date())
+       "Billie Eilish", "Duncan",new Date())
           ]
 
   completeGoal(isComplete,index){
@@ -16,7 +16,11 @@ export class QuoteComponent implements OnInit {
       this.quotes.splice(index,1);
     }
   }
-
+  //
+  addmodel(quote){
+    let quoteLength= this.quotes.length;
+    this.quotes.push(quote);
+  }
   constructor() { }
 
   ngOnInit() {
