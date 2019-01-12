@@ -4,7 +4,11 @@
 <div class="container">
   <div class="row">
     <ul>
-  <li *ngFor='let quote of quotes'>{{quote.description}}</li>
-</ul>
+      <div *ngFor='let quote of quotes'>
+        <li>"{{quote.description}}"</li>
+          <app-quote-details [quote]="quote" (isComplete)= 'completeGoal($event,i)'>
+          </app-quote-details>
+      </div>
+    </ul>
   </div>
 </div>

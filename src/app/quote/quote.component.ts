@@ -8,8 +8,14 @@ import {Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes= [ new Quote ("If I could fall asleep, I would have slept by now",
-       "Billie Eilish", "Duncan")
+       "Billie Eilish", "Duncan",0,0,)
           ]
+
+  completeGoal(isComplete,index){
+    if(isComplete){
+      this.quotes.splice(index,1);
+    }
+  }
 
   constructor() { }
 
