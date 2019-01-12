@@ -7,7 +7,5 @@ import {Quote} from './quote'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  quotes= [ new Quote ("If I could fall asleep, I would have slept by now",
-       "Billie Eilish", "Duncan")
-          ]
+
     }

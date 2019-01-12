@@ -1,3 +1,4 @@
 export class Quote {
-  constructor(public description: string, public author: string, public submitter: string){}
+  constructor(public description: string, public author: string,
+    public submitter: string, public votes: number){}
 }
