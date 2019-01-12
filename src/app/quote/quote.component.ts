@@ -8,7 +8,7 @@ import {Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes= [ new Quote ("If I could fall asleep, I would have slept by now",
-       "Billie Eilish", "Duncan",0,0,)
+       "Billie Eilish", "Duncan",0,0,new Date())
           ]
 
   completeGoal(isComplete,index){
