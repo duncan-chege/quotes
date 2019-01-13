@@ -12,7 +12,7 @@ export class QuoteFormComponent implements OnInit {
 
     onSubmit(){
       this.addQuote.emit(this.model);
-      // this.model=new Quote (0,"","","",new Date())
+      this.model=new Quote (0,"","","",new Date())
     }
 
 
