@@ -1,7 +1,10 @@
 .needs-validation{
    width: 450px;
-   margin-left: -70px;
+   margin-left: 0px;
 }
 .btnmove{
   margin-left: 10em;
+}
+.lbl{
+  color: white;
 }

@@ -2,15 +2,18 @@
   margin-top: 1.5em;
 }
 .heading{
-  margin-left: 44%;
+  text-align: center;
   margin-top: 2px;
+  color: beige;
 }
 .desc{
-  margin-left: 36%;
+  text-align: center;
   margin-top: -5px;
+  color: white;
 }
 hr{
-  border-top: 3px solid black;
+  border-top: 3px solid #904242;
   width: 200px;
   margin-top: 0px;
+  position: relative;
 }
