@@ -2,12 +2,18 @@
 <h1>My Quotes</h1>
 <div class="container">
   <div class="row">
+    <div class="col-md-6" >
     <app-quote-form (addQuote)="addmodel($event)"></app-quote-form>
-    <ul>
+    </div>
+
+
+    <div class="col-md-6">
+      <ul>
       <div *ngFor='let quote of quotes'>
         <li>"{{quote.description}}"</li>
           <app-quote-details [quote]='quote' (isComplete)= 'completeQuote($event,i)'></app-quote-details>
       </div>
     </ul>
+    </div>
   </div>
 </div>

@@ -1,6 +1,7 @@
 <div class="container-fluid">
     <div class="row">
-        <form (ngSubmit)="onSubmit()" #quoteForm='ngForm' class="needs-validation" novalidate>
+        <form (ngSubmit)="onSubmit()" #quoteForm='ngForm' class="needs-validation"
+         novalidate>
             <div class="form-group">
 
                 <label for="name">Submitter</label>
@@ -12,10 +13,8 @@
             <div class="form-group">
                 <label for="quote">Quote</label>
                 <textarea class="form-control" id="quote" rows="4"
-              placeholder="Enter a Quote"  [(ngModel)]="model.description" name="description" required></textarea>
-              <div class="invalid-feedback">
-          Please choose a username.
-          </div>
+              placeholder="Enter a Quote"  [(ngModel)]="model.description" name="description"
+              width="300px" required></textarea>
             </div>
 
             <div class="form-group">
@@ -24,10 +23,9 @@
             placeholder="Enter Author's name"  [(ngModel)]="model.author" name="author" required>
 
             </div>
-            <button type="submit" class="btn btn-outline-info">Add Quote</button>
+            <button type="submit" class="btn btn-outline-info btnmove" >Add Quote</button>
         </form>
         <div>
         </div>
-
     </div>
 </div>

@@ -1,6 +1,14 @@
+
 <p>
   ~ <b>{{quote.author}}</b>. Submitted by: {{quote.submitter}}<br>
-  <span class="fas fa-heart heart"></span>  <span class="fas fa-heart-broken brokenheart" ></span> <span id="timestamp">
+  <span class="fas fa-heart heart" onclick="addlike()"></span>
+
+  <span class="like">{{count}}</span>
+
+
+  <span class="fas fa-heart-broken brokenheart" onclick="addhate()"> </span>
+  <span class="dislike">0</span>
+  <span id="timestamp">
     <i>{{quote.time|timeAgo}}</i></span>
 </p>
 <button type="button" class="btn btn-outline-danger" (click) = 'quoteComplete(true)'> Delete </button>
