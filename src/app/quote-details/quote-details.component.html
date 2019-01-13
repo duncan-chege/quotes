@@ -1,6 +1,6 @@
 <p>
   ~ <b>{{quote.author}}</b>. Submitted by: {{quote.submitter}}<br>
-  Likes: {{quote.upvotes}}, Dislikes: {{quote.downvotes}} <span id="timestamp">
+  Likes: , Dislikes: <span id="timestamp">
     <i>{{quote.time|timeAgo}}</i></span>
 </p>
-<button (click) = 'quoteComplete(true)'> Delete </button>
+<button type="button" class="btn btn-outline-danger" (click) = 'quoteComplete(true)'> Delete </button>
