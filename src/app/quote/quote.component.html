@@ -1,13 +1,15 @@
 
-<h1>My Quotes</h1>
+<h2 class="heading">My Quotes</h2>
+<hr>
+<p class="desc">Submit your favorite quote for others to view and like</p>
 <div class="container">
   <div class="row">
-    <div class="col-md-6" >
+    <div class="col-md-6 leftgradient"  >
     <app-quote-form (addQuote)="addmodel($event)"></app-quote-form>
     </div>
 
 
-    <div class="col-md-6">
+    <div class="col-md-6 quotedisplay">
       <ul>
       <div *ngFor='let quote of quotes'>
         <li>"{{quote.description}}"</li>
