@@ -1,3 +1,14 @@
 #timestamp{
-padding-left:11em
+padding-left:9em;
+font-size: 15px;
+}
+.heart{
+  color: Tomato;
+  margin-left: 1em;
+  font-size: 1.2em;
+}
+.brokenheart{
+  color: Tomato;
+  margin-left: 10em;
+  font-size: 1.2em;
 }
