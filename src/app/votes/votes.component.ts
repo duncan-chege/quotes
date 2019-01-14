@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Quote} from '../quote';
+import { Quote } from '../quote';
 
 @Component({
   selector: 'app-votes',
@@ -8,14 +8,14 @@ import {Quote} from '../quote';
 })
 export class VotesComponent implements OnInit {
 
-  likes=0;
-  dislikes=0;
+  likes = 0;
+  dislikes = 0;
 
-  addlike(){
-    this.likes= this.likes + 1;
+  addlike() {
+    this.likes = this.likes + 1;
   }
-  addislike(){
-    this.dislikes= this.dislikes + 1;
+  addislike() {
+    this.dislikes = this.dislikes + 1;
   }
 
   constructor() { }
