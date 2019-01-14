@@ -6,13 +6,13 @@
   <div class="row">
     <div class="col-md-6" >
     <app-quote-form (addQuote)="addmodel($event)"></app-quote-form>
-  
+
     </div>
 
 
     <div class="col-md-6 quotedisplay">
       <ul>
-      <div *ngFor='let quote of quotes'>
+      <div *ngFor="let quote of quotes, let i=index">
         <li>"{{quote.description}}"</li>
           <app-quote-details [quote]='quote' (isComplete)= 'completeQuote($event,i)'></app-quote-details>
       </div>
