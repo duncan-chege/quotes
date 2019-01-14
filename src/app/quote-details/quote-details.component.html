@@ -1,8 +1,8 @@
 
-<p>
-  ~ <b>{{quote.author}}</b>. Submitted by: {{quote.submitter}}<br>
+<div class="peopledetails">
+  ~ <b>{{quote.author}}</b>. <span class="submittext">Submitted by: {{quote.submitter}}</span><br>
     <span id="timestamp">
     <i>{{quote.time|timeAgo}}</i></span>
     <app-votes></app-votes>
-</p>
+</div>
 <button type="button" class="btn btn-outline-danger" (click) = 'quoteComplete(true)'> Delete </button>
