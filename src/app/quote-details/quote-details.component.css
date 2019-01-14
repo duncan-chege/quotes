@@ -1,16 +1,7 @@
 #timestamp{
 padding-left:5em;
 font-size: 15px;
-}
-.heart{
-  color: Tomato;
-  margin-left: 1em;
-  font-size: 1.2em;
-}
-.brokenheart{
-  color: Tomato;
-  margin-left: 10em;
-  font-size: 1.2em;
+float: right;
 }
 .like{
   margin-left: 8px;
@@ -18,6 +9,6 @@ font-size: 15px;
 .dislike{
   margin-left: 8px;
 }
-.submittext{
+/* .submittext{
   float: right;
-}
+} */
