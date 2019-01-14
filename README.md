@@ -1,27 +1,34 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+This is a web application that lets a person submit a quote and the author of that quote.
+A person can also upvote, downvote or delete that quote
 
-## Development server
+## Author Information
+Written by *Duncan Chege*. His first attempt at using AngularJS in a web app.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+1. On GitHub, navigate to the main page of the repository.
+2. Under the repository name, click Clone or download.
+3. In the Clone with HTTPs section, click to copy the clone URL for the repository.
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 2.
+7. Press Enter. Now your local clone will be created.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Behaviour Driven Development
 
-## Build
+Below shows an image identifying different function executions
+![Image](readme.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Link to live site.
+Click [here](https://dunyung1.github.io/quotes/) to view the webpage.
 
-## Running unit tests
+### Contact Information
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To reach me, email me at: > dshege4@gmail.com
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### License
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+-This project is licensed under the terms of the [MIT license](https://github.com/dunyung1/Web-work/blob/master/MIT%20License)
